@@ -8,18 +8,19 @@ html body{
     background-color: #efefef
 }
 .logo{
-    height: 60px;
-    margin:0 0 0 110px;
+    height: 60%;
+    margin:0 0 0 10%;
 }
 .template{
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 95px;
+    height: 14vh;
+    width: 100%;
 }
 .create{
-    padding-right: 90px;
+    padding-right: 1%;
 }
 #byn{
     color: #166beb;
@@ -27,16 +28,16 @@ html body{
 
 nav{
     background-color: #efefef;
-    height: 50px;
-    width: auto;
+   height: 50px;
+    width: 100%;
     padding-top: 2px;
 }
 .navigation{
-    padding-left: 150px;
+    padding-left: 11%;
 }
 .navigation>ul>li{
     float: left;
-   margin-left: 60px;
+   margin-left: 4%;
  }
 .navigation>ul{
     list-style: none;
@@ -53,16 +54,16 @@ nav{
   .bg_img img{
     object-fit: fill;
     width: 100%; 
-    height: 340px;
+    height:340px;
     float: left;
 }
 .container-md{
     background-color:white;
-    height: 150px;
+    height:20%;
    box-shadow: 2px 3px 10px  rgb(179, 179, 179);
    position: absolute;
-   top: 425px;
-    left: 90px;
+     top: 58%;
+     left: 7%;
     border-radius: 15px;
 }
 #btn_one , #btn_2{
@@ -94,55 +95,61 @@ nav{
 input{
     height: 30px;
   border: none;
-  width: 190px;
+  width: 75%;
 }
 input:focus {
     outline: none; 
   }
   #dt{
     color: #857676;
-    padding: 5px;
+    padding: 1.5%;
   }
 .input{
     border: 1px solid rgb(191, 191, 191);
 }
 #btn{
-    padding: 0 35px 0 25px;
-    margin: 31px 0 0 5px;
-    height: 36px;
+    padding: 0 2% 0 2%;
+    margin: 3% 0 0 2%;
     background-color: #166beb;
     color: white;
     border: none;
 }
 .container-xxl{
-    margin: 500px 0 35px 125px ;
-    width: 1260px;
-    height: 920px;
+    margin: 35% 0 5% 20% ;
+    width: 80%;
     background-color: white;
     box-shadow: 2px 3px 10px  rgb(179, 179, 179);
-    border-radius: 15px;   
+    border-radius: 2%;   
+     gap: 15%;
+     height: 890px;
 }
+
 .places{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 35px ;
-    padding-left: 25px;  
-    margin-top: 35px;
+    gap: 5% ;
+    padding-left: 2%;  
+    margin-top: 3%;
 }
 .place{
-  height: 350px;
-  width: 278px;
+  height: 105%;
+  width: 90%;
  text-align: center;
- padding-top: 11px;
+ padding-top: 3%;
  box-shadow:0px 0px 2px 3px lavender; 
+
 }
 .place>p{
     font-size: 18px;
     font-weight: 400;
 }
+.pic>img{
+    height: 50%;
+    width: 100%;
+}
 .heading{
     text-align: center;
-    padding-top: 40px;
+    padding-top: 2%;
     color: #868383;
     font-weight: 300;
 }
@@ -150,21 +157,19 @@ input:focus {
     color: #166beb;
     text-decoration: none;
     position: relative;
-    top: 10px;
+    top: 4%;
 }
 .foot{
-  height: 250px;
   width: 100%;
-  margin: 100px 0 15px 0;
+  margin: 5% 0 2% 0;
   display: flex;
   justify-content: space-around;
-  padding-left: 150px;
  padding-top: 55px;
  background-color: white;
 }
 .detail{
-  height: 190px;
-  width: 250px;
+  height: 50%;
+  width: 100%;
   background-color: white;
 }
 .detail>h5{
@@ -190,14 +195,12 @@ h6{
 }
 .detail>p{
     text-align: center;
-    font-size: 16px;
     font-weight: 600;
     color: #716262;
 }
 body>P{
     text-align: center;
     color: #5f5959;
-    font-weight: 500;
+    font-weight: 600;
 }
-
 
