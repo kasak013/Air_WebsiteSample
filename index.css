@@ -59,10 +59,10 @@ nav{
 }
 .container-md{
     background-color:white;
-    height:20%;
+    height:150px;
    box-shadow: 2px 3px 10px  rgb(179, 179, 179);
    position: absolute;
-     top: 58%;
+     top:431px;
      left: 7%;
     border-radius: 15px;
 }
@@ -83,7 +83,7 @@ nav{
 }
 .flex{
     display: flex;
-    gap: 20px ;
+    gap: 20px;
 }
 .boxes>p{
     font-size: 18px;
@@ -115,7 +115,7 @@ input:focus {
     border: none;
 }
 .container-xxl{
-    margin: 35% 0 5% 20% ;
+    margin: 480px 0 15px 80px ;
     width: 80%;
     background-color: white;
     box-shadow: 2px 3px 10px  rgb(179, 179, 179);
@@ -203,4 +203,115 @@ body>P{
     color: #5f5959;
     font-weight: 600;
 }
+@media (min-width:986px) and (max-width: 1240px) {
 
+    .container-md{
+        left: 2%;
+       }
+        .container-xxl{
+            margin-top: 42%;
+            padding-top: 15px;
+        }
+    .places{
+        padding-top: 15px;
+        gap: 45px;
+    }
+}
+@media (min-width:785px) and (max-width: 985px) {
+       .container-md{
+           left: 5%;
+          }
+           .container-xxl{
+               margin-top: 480px;
+               padding-top: 15px;
+               height: 750px;
+           }
+    .places{
+        padding-top: 15px;
+        gap: 45px;
+    }
+    .input{
+        width:110px;
+      }
+      #dt{
+        width: 110px;
+      }
+      #btn{
+      height: 35px;
+      width: 55px;
+      margin-left: 1px;
+      font-size: 12px;
+      text-align: center;
+      padding: 0;
+      margin-top: 38px;
+      }
+    }
+       
+@media (max-width: 786px) {
+    .container-md{
+        left: 0%;
+       }
+        .container-xxl{
+            margin-top: 495px;
+            height: 1070px;
+
+        }
+  .input{
+    width:110px;
+  }
+  #dt{
+    width: 110px;
+  }
+  #btn{
+  height: 35px;
+  width: 55px;
+  margin-left: 1px;
+  font-size: 12px;
+  text-align: center;
+  padding: 0;
+  margin-top: 38px;
+  }
+  .places{ 
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width:400px) and (max-width: 695px) {
+
+    .container-md{
+        left: 0%;
+       }
+        .container-xxl{
+            margin-top: 980px;
+            height: 1450px;
+        }
+  .input{
+    width:310px;
+  }
+  #dt{
+    width: 310px;
+  }
+ 
+  .places{ 
+    grid-template-columns: 1fr 1fr ;
+  }
+  .input{
+    font-size: 17px;
+  }
+ .flex{
+    flex-direction: column;
+ }
+ .container-md{
+    height: 610px;
+ }
+ #btn{
+  height: 30px;
+  width:110px;
+  margin: 15px 0 0 0;
+ }
+ .flex{
+    padding-left: 25px;
+ }
+ .navigation>ul>li{
+   margin-left: 12px;
+ }
+}
